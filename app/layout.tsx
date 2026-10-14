@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Chuanhao Lu | Economics',
     description:
-      'Research on industrial organization, applied microeconomics, public economics, and international trade.',
+      'Research on Industrial Organization, Applied Microeconomics, Public Economics, and International Trade.',
     type: 'website',
   },
   twitter: {
     card: 'summary',
     title: 'Chuanhao Lu | Economics',
     description:
-      'Research on industrial organization, applied microeconomics, public economics, and international trade.',
+      'Research on Industrial Organization, Applied Microeconomics, Public Economics, and International Trade.',
   },
 };
 
