@@ -19,8 +19,8 @@ export default function Home() {
             bachelor&apos;s degree in Finance from Renmin University of China.
           </p>
           <p>
-            My research interests are industrial organization, applied microeconomics, public
-            economics, and international trade.
+            My research interests are Industrial Organization, Applied Microeconomics, Public
+            Economics, and International Trade.
           </p>
           <p className="contact-line">
             Email: <a href="mailto:chuanhaolu@link.cuhk.edu.hk">chuanhaolu@link.cuhk.edu.hk</a>
