@@ -6,11 +6,27 @@ export const metadata: Metadata = {
   description: 'Working papers and ongoing research by Chuanhao Lu.',
 };
 
+const XiaochenXieLink = () => (
+  <a href="https://xiexiaochen.weebly.com/" target="_blank" rel="noreferrer">
+    Xiaochen Xie
+  </a>
+);
+
+const WenzhuoLuLink = () => (
+  <a href="https://sites.google.com/site/luwenzhuo/home" target="_blank" rel="noreferrer">
+    Wenzhuo Lu
+  </a>
+);
+
 const publications = [
   {
     title: 'Order of Entry and Market Performance in the Global Smartphone Industry',
     href: 'https://www.sciencedirect.com/science/article/pii/S0167718726000937?dgcid=author',
-    authors: 'with Wenzhuo Lu and Xiaochen Xie',
+    authors: (
+      <>
+        with <WenzhuoLuLink /> and <XiaochenXieLink />
+      </>
+    ),
     status: 'International Journal of Industrial Organization (2026)',
   },
 ];
@@ -18,7 +34,11 @@ const publications = [
 const workingPapers = [
   {
     title: 'Technology Sanctions and Production-Network Spillovers: Evidence from the Huawei Ban',
-    authors: 'with Qi Wu, Xiaochen Xie, and Junjie Xia',
+    authors: (
+      <>
+        with Qi Wu, <XiaochenXieLink />, and Junjie Xia
+      </>
+    ),
     status: 'Under Review',
   },
 ];
@@ -26,11 +46,19 @@ const workingPapers = [
 const workInProgress = [
   {
     title: 'Competition in the Smartphone Markets',
-    authors: 'with Shengmao Cao and Xiaochen Xie',
+    authors: (
+      <>
+        with Shengmao Cao and <XiaochenXieLink />
+      </>
+    ),
   },
   {
     title: 'China’s New Energy Vehicle Subsidies',
-    authors: 'with Mingming Li and Xiaochen Xie',
+    authors: (
+      <>
+        with Mingming Li and <XiaochenXieLink />
+      </>
+    ),
   },
 ];
 
