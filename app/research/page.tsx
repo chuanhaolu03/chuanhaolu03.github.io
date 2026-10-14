@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 const publications = [
   {
     title: 'Order of Entry and Market Performance in the Global Smartphone Industry',
+    href: 'https://www.sciencedirect.com/science/article/pii/S0167718726000937?dgcid=author',
     authors: 'with Wenzhuo Lu and Xiaochen Xie',
     status: 'International Journal of Industrial Organization (2026)',
   },
@@ -43,7 +44,11 @@ export default function ResearchPage() {
         <div className="publication-list">
           {publications.map((paper) => (
             <article className="publication" key={paper.title}>
-              <h4>{paper.title}</h4>
+              <h4>
+                <a href={paper.href} target="_blank" rel="noreferrer">
+                  {paper.title}
+                </a>
+              </h4>
               <p>{paper.authors}</p>
               <p className="status">{paper.status}</p>
             </article>
