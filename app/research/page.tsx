@@ -18,6 +18,12 @@ const WenzhuoLuLink = () => (
   </a>
 );
 
+const QiWuLink = () => (
+  <a href="https://qiwu-qw.github.io" target="_blank" rel="noreferrer">
+    Qi Wu
+  </a>
+);
+
 const publications = [
   {
     title: 'Order of Entry and Market Performance in the Global Smartphone Industry',
@@ -36,7 +42,7 @@ const workingPapers = [
     title: 'Technology Sanctions and Production-Network Spillovers: Evidence from the Huawei Ban',
     authors: (
       <>
-        with Qi Wu, <XiaochenXieLink />, and Junjie Xia
+        with <QiWuLink />, <XiaochenXieLink />, and Junjie Xia
       </>
     ),
     status: 'Under Review',
